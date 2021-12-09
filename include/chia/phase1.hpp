@@ -5,13 +5,13 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE1_HPP_
-#define INCLUDE_CHIA_PHASE1_HPP_
+#ifndef INCLUDE_SKYNET_PHASE1_HPP_
+#define INCLUDE_SKYNET_PHASE1_HPP_
 
-#include <chia/phase1.h>
-#include <chia/ThreadPool.h>
-#include <chia/DiskTable.h>
-#include <chia/bits.hpp>
+#include <skynet/phase1.h>
+#include <skynet/ThreadPool.h>
+#include <skynet/DiskTable.h>
+#include <skynet/bits.hpp>
 
 #include "blake3.h"
 #include "chacha8.h"
@@ -522,4 +522,4 @@ void compute(	const input_t& input, output_t& out,
 
 } // phase1
 
-#endif /* INCLUDE_CHIA_PHASE1_HPP_ */
+#endif /* INCLUDE_SKYNET_PHASE1_HPP_ */

@@ -5,12 +5,12 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_DISKTABLE_H_
-#define INCLUDE_CHIA_DISKTABLE_H_
+#ifndef INCLUDE_SKYNET_DISKTABLE_H_
+#define INCLUDE_SKYNET_DISKTABLE_H_
 
-#include <chia/buffer.h>
-#include <chia/stdiox.hpp>
-#include <chia/ThreadPool.h>
+#include <skynet/buffer.h>
+#include <skynet/stdiox.hpp>
+#include <skynet/ThreadPool.h>
 
 #include <cstdio>
 
@@ -151,4 +151,4 @@ private:
 };
 
 
-#endif /* INCLUDE_CHIA_DISKTABLE_H_ */
+#endif /* INCLUDE_SKYNET_DISKTABLE_H_ */

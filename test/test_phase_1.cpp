@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#include <chia/phase1.hpp>
-#include <chia/DiskSort.hpp>
+#include <skynet/phase1.hpp>
+#include <skynet/DiskSort.hpp>
 
 #include <iostream>
 

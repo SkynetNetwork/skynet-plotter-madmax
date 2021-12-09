@@ -5,11 +5,11 @@
  *      Author: mad
  */
 
-#include <chia/phase4.h>
-#include <chia/DiskSort.hpp>
+#include <skynet/phase4.h>
+#include <skynet/DiskSort.hpp>
 
-#include <chia/encoding.hpp>
-#include <chia/util.hpp>
+#include <skynet/encoding.hpp>
+#include <skynet/util.hpp>
 
 
 namespace phase4 {

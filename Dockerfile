@@ -25,7 +25,7 @@ RUN apk --no-cache add \
     gmp-dev \
     libsodium-dev
 
-COPY --from=compiler /root/build /usr/lib/chia-plotter
-RUN ln -s /usr/lib/chia-plotter/chia_plot /usr/bin/chia_plot
+COPY --from=compiler /root/build /usr/lib/skynet-plotter
+RUN ln -s /usr/lib/skynet-plotter/skynet_plot /usr/bin/skynet_plot
 
-ENTRYPOINT ["/usr/bin/chia_plot"]
+ENTRYPOINT ["/usr/bin/skynet_plot"]

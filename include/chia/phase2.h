@@ -5,13 +5,13 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE2_H_
-#define INCLUDE_CHIA_PHASE2_H_
+#ifndef INCLUDE_SKYNET_PHASE2_H_
+#define INCLUDE_SKYNET_PHASE2_H_
 
-#include <chia/chia.h>
-#include <chia/phase1.h>
-#include <chia/DiskSort.h>
-#include <chia/bitfield.hpp>
+#include <skynet/skynet.h>
+#include <skynet/phase1.h>
+#include <skynet/DiskSort.h>
+#include <skynet/bitfield.hpp>
 
 #include <array>
 #include <vector>
@@ -33,7 +33,7 @@ struct entry_x {
 		pos = entry.pos;
 		off = entry.off;
 	}
-#ifdef CHIA_K34
+#ifdef SKYNET_K34
 	size_t read(const uint8_t* buf) {
 		memcpy(&key, buf, 5);
 		key &= 0x7FFFFFFFF;				// 35 bit
@@ -110,4 +110,4 @@ struct output_t {
 
 } // phase2
 
-#endif /* INCLUDE_CHIA_PHASE2_H_ */
+#endif /* INCLUDE_SKYNET_PHASE2_H_ */
